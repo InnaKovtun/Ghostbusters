@@ -216,8 +216,47 @@ body{
     font-size: 24px;
     line-height: 28px;
     color: #A5A5A5;
-
+    margin-right: 30px;
 }
+
 .section-title.active{
     color: #363636;
+    font-weight: 900;
+}
+
+.tabs {
+    margin-bottom: 60px;
+}
+
+.tabs-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    flex-basis: 25%;
+    margin-bottom: 35px;
+}
+
+.name{
+    font-size: 16px;
+    line-height: 19px;
+    color: #5671f6;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+.en-name{
+    color: #a5a5a5;
+}
+
+.card-image{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
 }
